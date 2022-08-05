@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>Diceware2k Passphrase Home</title>
+	<meta name="keywords" content="diceware, BIP-32, passphrase, password, cryptography"/>
+    <meta name="description" content="Diceware2k Passphrase Generator"/>
+    <!-- css style borrowed from https://theworld.com/~reinhold/diceware.html -->
+	<style type="text/css">
+		@page { margin: 0.79in }
+		address { color: #000000 }
+		h1 { color: #000000 }
+		h1.cjk { font-family: "SimSun" }
+		h1.ctl { font-family: "Lucida Sans" }
+		p { color: #000000 }
+		h2 { color: #000000 }
+		h2.cjk { font-family: "SimSun" }
+		h2.ctl { font-family: "Lucida Sans" }
+		pre { color: #000000 }
+		pre.cjk { font-family: "Courier New", monospace }
+		h3 { color: #000000 }
+		h3.cjk { font-family: "SimSun" }
+		h3.ctl { font-family: "Lucida Sans" }
+		blockquote { color: #000000 }
+		h4 { color: #000000 }
+		h4.cjk { font-family: "SimSun" }
+		h4.ctl { font-family: "Lucida Sans" }
+		h5 { color: #000000 }
+		h5.cjk { font-family: "SimSun" }
+		h5.ctl { font-family: "Lucida Sans" }
+		tt.cjk { font-family: "Courier New", monospace }
+	</style>
+</head>
+<body lang="en-US" text="#000000" dir="ltr"><h1 class="western" style="background: transparent">
+<span style="background: #ffffcc">The Diceware2k Passphrase Home Page</span></h1>
+<p style="background: transparent">
+Diceware2K is a wordlist derived from <a href="https://theworld.com/~reinhold/diceware8k.txt">Diceware8k</a>.
+It contains 2048 words.
+Each word contains 1 to 3 characters.</p>
+
+<p style="background: transparent">Here is a short excerpt from the Diceware2K word list:</p>
+<pre class="western" style="background: transparent">
+ cb
+ cbs
+ cc
+ ccc
+ cd
+ cdc
+ ce
+ cf
+ cg
+ ch
+ chi
+ ci
+ cia
+ cj
+ ck
+ cl
+</pre>
+
+<p class="western" style="background: transparent">
+<a href="diceware2k.txt">The Complete Diceware2k Wordlist</a>
+</p>
+
+<h2 class="western" style="background: transparent">How is Diceware2k Made?</h2>
+
+<p style="background: transparent">
+diceware8k contains 2028 words with two or three characters,
+and 51 single character words: (seperated by comma):</p>
+
+<pre class="western" style="background: transparent">
+
+    a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,
+    !,#,$,%,&,(,),*,+,-,0,1,2,3,4,5,6,7,8,9,:,;,=,?,@
+</pre>
+
+<p class="western" style="background: transparent">
+Removing the first 26 characters (lowercase letters) and the last five characters (symbols), there are 20 words left:</p>
+
+<pre class="western" style="background: transparent">
+    !,#,$,%,&,(,),*,+,-,0,1,2,3,4,5,6,7,8,9
+</pre>
+
+<p class="western" style="background: transparent">
+Thus we get the 2048 (<code>2028 + 20</code>) words of this diceware2k list.</p>
+</p>
+
+<h2 class="western" style="background: transparent">Why Diceware2k</h2>
+
+<p class="western" style="background: transparent">
+To yield sufficient entropy, using eight or more words are recommended.
+However, some sites have a harsh restriction on password length.
+Since Diceware2k only contains words with a length upto 3 characters,
+more words can be used in a password generated for these sites.
+<p>
+
+<p class="western" style="background: transparent">
+It is also recommended to join this words without space or punctuation, with the first letter of each word captilized.
+This can spare more password length to fit in more words.
+Some sites also have special password requirements, for example, containing both upper and lowercase letters, or both letters and numbers.
+Since first letter of each word is captilized, and a lot of words consist of two or three characters from Diceware8k contains numbers or symbols,
+it is more likely to generate a password that meets these requirements.
+</p>
+
+<p class="western" style="background: transparent">
+Some examples of randomly generated passphrases using Diceware2K, each containing 8 words:</p>
+
+<pre class="western" style="background: transparent">
+D4G6FunOtt8TOwlHa18
+PvHocWagTnt2ZRetFghOv
+DlZyAt5FFpcAbaNed8Y
+</pre>
+
+<p class="western" style="background: transparent">
+A disadvantage of Diceware2k is that generated passphrases may be harder to memorize, since a lot of short words are nonwords.
+Instead, people who do not know English may find these words easier to memorize, since they are shorter.
+</p>
+
+<hr/>
+
+<address style="margin-bottom: 0.2in; background: transparent"><font color="#000080">
+Diceware8k is made by Arnold G. Reinhold,
+and is licensed under the
+<a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons CC-BY 4.0</a>
+license, to the extent that a word list is protected by copyright.
+</address>
+
+<address style="margin-bottom: 0.2in; background: transparent"><font color="#000080">
+<a href="https://github.com/weakish/diceware2k/">website source</a>
+</address>
+
+</body>
+</html>
